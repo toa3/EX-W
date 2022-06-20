@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tristán Alcover</title>
+    <meta charset="utf-8">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/nrj1pmo.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body id="cuerpo">
+    <header>
+        <nav>
+            <a href=index.html><p>AT-TOA</p></a>
+            <ul id="oculto">
+                <li><a href="carta.html">Graphic bestiary</a></li>
+                <li><a href="#eventos">Index</a></li>
+                <li><a href="https://ioor.cargo.site/">Interior</a></li>
+            </ul>
+            <button onclick="abrirmenu()"><img id="equis" src="../img/mas.svg" alt="menú"></button>
+        </nav>
+    </header>
+
+    <nav id="menu">
+        <div>
+            <ul>
+                <li><a href="carta.html">Graphic Bestiary</a></li>
+                <li><a href="index.html">
+                        <div class="aqui">Index</div>
+                    </a></li>
+                <li><a href="https://ioor.cargo.site/">Interior</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1>AT-TOA</h1>
+        <p>Born and raised in Madrid, my first introduction to (graphic) design was through graffitti and many other graphic elements that flooded my city during my youth. Music was the gateway to studying Graphic Design, since i've always been part of the music scene here in Madrid, and I wanted to explore ways of communicating and sharing common experiences and feeling with visual and graphic elements. To do so, since i was 19 i started to do artworks for some underground electronic artists, working hand to hand with them.
+Moreover, i started producing and DJ'ing in late 2020. This granted the oportunity to understand first-hand what it means to communicate through sound and sourround myself with a community of thriven artist.
+Academically, I've come to develop a more advertising-agency profile due to the requirements and practical focus of my course. I've worked for brands such as Sony Music, The Music Republic, PullBear, Universal Music, Sonido Muchacho and won a Silver in JCDecaux AND Unicef Young Talents Campaign 2021. I was also able to work for Teatro La Abadía, where i did mainly research + documentation, understanding how important both interdisciplinarity and extradisciplinarity are. i have also worked in retail, gardening and event planning.
+<br>
+            <br>During 2021, i've come to realise the importance of being selfsuficient and proactive and have been working on multiple projects mainly thought and focused on creating communities and self-management. Since summer '21 i was granted a creative residency at Radio Relativa, a community, independent and experimental radio station that serves as a platform to promote different cultural and musical initiatives related to the city of Madrid and beyond. I host with Gio Navarre (product designer) Enjambre, a monthly radio show which was born with the intention of deepening the concept of the creative process and all its possible aspects and applications. As of March'22, we've brought artists, architects, djs, art historians and photographers to the show to discuss these issues and create a community based on shared experiences and common injuries, such as precariety, lack of opportunities and dealing with expectations. On another note, i've founded Uncertain Cartographies, a trimestral editorial project which focused on the deminising barriers between human and IA made images (first issue will be published june'22). Currently, I also manage La Agencia, an underground club located in a shared space between product & graphic designers and architects here in Madrid, which aims to create a wellcoming space to gather and blur the barriers between spectator and active agent in the party scene.
+            <br>
+            <br>
+Finally, my Final Graduation Project is called Interior, a record label whose main theoretical axis are the concepts of identity and self-perception, these being channeled through the pseudonym and the avatar. Moreover, the label's first release will be a compilation of 12 international artists from Madrid, Valencia, Barcelona, Paris, Berlin, Helsinki and LA. Each of them made a track under an anonymus pseudonym in order to see how these perception of themselfs affects their creative process and which genres they explore. </p>
+    </main>
+
+
+    <section id="eventos">
+        <h2>SELECTED GRAPHIC WORKS</h2>
+        <div class="galeria">
+            <div data-aos="fade-up" class="evento">
+                <div class="informacion">
+                    <p>09/21 - 06/22</p>
+                    <p>Radio Show</p>
+                </div>
+                <img src="../img/enjambre.jpg" alt="evento">
+                <a href="https://www.radiorelativa.eu/enjambre" class="titulo">
+                    <div class="circulo">ENJAMBRE @ RR</div>
+                </a>
+            </div>
+
+            <div data-aos="fade-up" class="evento">
+                <div class="informacion">
+                    <p>2022 - </p>
+                    <p>Sello discográfico</p>
+                </div>
+                <img src="../img/interior.jpg" alt="evento">
+                <a href="https://ioor.cargo.site" class="titulo">
+                    <div class="circulo">INTERIOR</div>
+                </a>
+            </div>
+
+            <div data-aos="fade-up" class="evento">
+                <div class="informacion">
+                    <p>06/21</p>
+                    <p>Set + artwork</p>
+                </div>
+                <img src="../img/TOA.jpg" alt="evento">
+                <a href="https://soundcloud.com/shield-of-protection/toa0002" class="titulo">
+                    <div class="circulo">TOA#0002</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <button onclick="subir()" id="subir"><img id="top" src="../img/Subir.svg" alt="x"></button>
+
+    <footer>
+        <ul>
+            <li>
+                <p>+34 *** *** ***</p>
+            </li>
+            <li><a href="https://www.gmail.com">tristan@i-oor.xyz</a></li>
+            <li><a href="https://www.instagram.com/gryeega/?hl=es">@gryeega</a></li>
+        </ul>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 500, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+        });
+    </script>
+</body>
+
+</html>
